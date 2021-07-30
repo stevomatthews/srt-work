@@ -17,7 +17,7 @@
 
 For development, it is recommended to:
 * use `venv` for virtual environments and `pip` for installing the library and any dependencies. This ensures the code and dependencies are isolated from the system Python installation,
-* install the library in “editable” mode by running from the same directory `pip install -e .`. This allows changing the source code (both tests and library) and rerunning tests against library code at will. For regular installation, use `pip install .`.
+* install the library in “editable” mode by running from the same directory `pip install -e`. This allows changing the source code (both tests and library) and rerunning tests against library code at will. For regular installation, use `pip install`.
 
 As soon as the library is installed, you can run modules directly:
 ```
