@@ -42,7 +42,7 @@ Use the `--help` option to get the full list of options:
 
 ## Example Plots
 
-The script plots different charts from SRT statistics. For example, here is an example of a chart that presents statistics on the packets being sent, lost, retransmitted, dropped or on flight:
+The script plots different charts from SRT statistics. For example, here is a chart that presents statistics on the packets being sent, lost, retransmitted, dropped or in flight:
 
 <img src="img/packets_1.png" alt="packets_1" style="zoom:50%;" />
 
