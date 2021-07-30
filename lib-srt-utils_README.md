@@ -34,28 +34,28 @@ It is important to note that currently only `tshark` and the [srt-xtransmit](htt
 
 For development, it is recommended 
 * To use `venv` for virtual environments and `pip` for installing the library and any dependencies. This ensures the code and dependencies are isolated from the system Python installation,
-* To install the library in “editable” mode by running from the same directory `pip install -e .`. This lets changing the source code (both tests and library) and rerunning tests against library code at will. For regular installation, use `pip install .`.
+* To install the library in “editable” mode by running from the same directory `pip install -e `. This lets changing the source code (both tests and library) and rerunning tests against library code at will. For regular installation, use `pip install `.
 
 
-As soon as the library is installed, you can run modules directly
+As soon as the library is installed, you can run modules directly:
 
 ```
 venv/bin/python -m srt_utils.module --help
 ```
 
-or use preinstalled executable scripts
+or use preinstalled executable scripts:
 ```
 venv/bin/script --help
 ```
 
 ### Install the library to import in another project
 
-Install with `pip` (a `venv` is recommended), using pip's VCS requirement specifier
+Install with `pip` (a `venv` is recommended), using pip's VCS requirement specifier:
 ```
 pip install 'git+https://github.com/mbakholdina/lib-srt-utils.git@v0.1#egg=srt_utils'
 ```
 
-or simply put the following row in `requirements.txt`
+or simply put the following row in `requirements.txt`:
 ```
 git+https://github.com/mbakholdina/lib-srt-utils.git@v0.1#egg=srt_utils
 ```
@@ -64,12 +64,12 @@ Remember to quote the full URL to avoid shell expansion in case of direct instal
 
 This installs the version corresponding to the git tag 'v0.1'. You can replace that with a branch name, a commit hash, or a git ref as necessary. See the [pip documentation](https://pip.pypa.io/en/stable/reference/pip_install/#vcs-support) for details.
 
-As soon as the library is installed, you can import the whole library
+As soon as the library is installed, you can import the whole library:
 ```
 import srt_utils
 ```
 
-or a particular module
+or a particular module:
 ```
 import srt_utils.module as module
 ```
@@ -202,13 +202,13 @@ venv/bin/python -m scripts.experiment_runner --resultsdir _experiment_results co
 
 ### rename_folders.py
 
-This script helper is designed to move experiment results from subfolders to a root folder corresponding to a particular experiment. Run
+This script helper is designed to move experiment results from subfolders to a root folder corresponding to a particular experiment. Run this command 
+to get a full description, example of execution, and the list of options:
 
 ```
 venv/bin/python -m scripts.rename_folders --help
 ```
 
-to get a full description, example of execution, and the list of options.
 
 
 [RETURN TO TOP](#lib-srt-utils)
