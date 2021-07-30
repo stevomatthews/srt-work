@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 The main purpose of the `plot_srt_stats.py` script is to visualize all the SRT core statistics produced during experiments performed using one of the [testing applications](https://github.com/Haivision/srt/blob/master/docs/stransmit.md) or third-party solutions supporting the SRT protocol. Depending on whether these statistics are collected on the sender or receiver side, the data plot may vary.
 
-SRT core statistics should be collected in a `.csv` file. The recommended naming convention for file names is to add the suffix "-snd" or "-rcv" depending on where the data was collected (on the sender or receiver). Alternatively, file name can just contain "snd" or "rcv".
+SRT core statistics should be collected in a `.csv` file. The recommended naming convention for file names is to add the suffix "-snd" or "-rcv" depending on where the data was collected (on the sender or receiver). Alternatively, the file name can just contain "snd" or "rcv".
 
 The statistics file path is passed as an argument to the script:
 ```
